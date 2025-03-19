@@ -1,8 +1,13 @@
 # anagram-generator
 
-A simple Go script to generate a given number of the possible anagrams of a given word.
+A simple webapp to generate a given number of the possible anagrams of a given word.
 
-Start the application with
+Start the server with
 ```
-go run main.go
+npm run server
+```
+
+Start the web app with
+```
+npm run server
 ```
