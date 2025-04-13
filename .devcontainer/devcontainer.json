@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	"name": "Ubuntu",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+
+	// Features to add to the dev container
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "18"
+		}
+	},
+
+	// Forward ports
+	"forwardPorts": [3000, 5173],
+
+	// Optional: You can add a post-create command if needed
+	// "postCreateCommand": "uname -a",
+
+	// Optional: Uncomment to connect as root
+	// "remoteUser": "root"
+}

@@ -4,10 +4,10 @@ A simple webapp to generate a given number of the possible anagrams of a given w
 
 Start the server with
 ```
-npm run server
+cd api && json-server --watch db.json
 ```
 
-Start the web app with
+In a new terminal, start the web app with
 ```
-npm run server
+cd webapp && npm run server
 ```
